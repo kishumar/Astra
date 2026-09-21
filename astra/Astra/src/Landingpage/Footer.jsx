@@ -70,8 +70,8 @@ const footerColumns = [
   ];
 
   const contactInfo = [
-    { icon: Mail, text: "uzzwal7505@gmail.com" },
-    { icon: Phone, text: "+91 7505696519" },
+    { icon: Mail, text: "kishankumar20082000@gmail.com" },
+    { icon: Phone, text: "+91 9670753797" },
     { icon: MapPin, text: "Ghaziabad , Uttarpradesh , India", isAddress: true },
   ];
 
@@ -195,7 +195,7 @@ const footerColumns = [
             <h2 className="text-2xl flex items-center gap-2">
               Made with
               <HeartIcon className="w-6 h-6 text-red-500 fill-red-500" />
-              by Ujjwal
+              by Kishan
             </h2>
           </div>
         </div>
