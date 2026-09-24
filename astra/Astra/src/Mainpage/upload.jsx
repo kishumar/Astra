@@ -35,11 +35,11 @@ export default function CloudinaryImageUpload({ onChange, onAIFields }) {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      formData.append("upload_preset", "kb9n4w2j");
+      formData.append("upload_preset", "astra_unsigned");
       formData.append("folder", "Astra_uploads");
 
       const response = await axios.post(
-        "https://api.cloudinary.com/v1_1/dvmqxb8kd/image/upload",
+        "https://api.cloudinary.com/v1_1/dw14navak/image/upload",
         formData
       );
 
